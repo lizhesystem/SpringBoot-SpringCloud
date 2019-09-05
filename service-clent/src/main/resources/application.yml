@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: service-clent
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka,http://127.0.0.1:10087/eureka
+# 设置熔断触发，表示5次后会断开服务，一切请求都会被降级处理。默认是20
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        requestVolumeThreshold: 5
+feign:
+  hystrix:
+    enabled: true # 开启Feign的熔断功能
