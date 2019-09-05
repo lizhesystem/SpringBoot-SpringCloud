@@ -17,5 +17,4 @@ mybatis:
 ```
 # SpringCloud架构
 
-![image](https://user-images.githubusercontent.com/35909339/64350315-0ce4c080-d02b-11e9-99aa-d4e99c72b059.png)
-
+![image](https://user-images.githubusercontent.com/35909339/64350642-95636100-d02b-11e9-9068-4f760363c094.png)
