@@ -1,8 +1,7 @@
 - [SpringBoot-SpringCloud](#springboot-springcloud)
 - [SpringBoot](#springboot)
 - [SpringCloud架构](#springcloud架构)
-  * [使用](#使用)
-    + [哈哈](#哈哈)
+
 
 # SpringBoot-SpringCloud
 springboot的入门案例集成eureka注册中心、ribbon负载均衡、hystrix熔断保护、feign请求伪装、zuul网关
@@ -24,6 +23,3 @@ mybatis:
 # SpringCloud架构
 
 ![image](https://user-images.githubusercontent.com/35909339/64350642-95636100-d02b-11e9-9068-4f760363c094.png)
-
-## 使用
-### 哈哈
